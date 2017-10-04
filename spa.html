@@ -1,0 +1,38 @@
+<!doctype html>
+<!--
+  spa.html
+-->
+
+<html>
+<head>
+  <!-- ie9+ rendering support for latest standards -->
+  <meta http-equiv="Content-Type" content="text/html;
+    charset=ISO-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>SPA DM</title>
+
+  <!-- third-party stylesheets -->
+
+  <!-- our stylesheets -->
+  <link rel="stylesheet" href="css/spa.css"             type="text/css"/>
+  <link rel="stylesheet" href="css/spa.shell.css"       type="text/css"/>
+
+  <!-- third-party javascript -->
+  <script src="js/jq/jquery-3.2.1.js"             ></script>
+
+  <!-- our javascript -->
+  <script src="js/spa.js"             ></script>
+  <script src="js/spa.shell.js"       ></script>
+  <script src="js/spa.nav.js"         ></script>
+  <script src="js/spa.home.js"        ></script>
+  <script src="js/spa.news.js"        ></script>
+
+  <script>
+    $(function () { spa.initModule( $('#spa') ); });
+  </script>
+
+</head>
+<body>
+<div id="spa"></div>
+</body>
+</html>
