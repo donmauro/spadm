@@ -1,0 +1,42 @@
+/*
+ * spa.message.css
+ * Message styles
+*/
+.spa-message {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin: 15px;
+  display: none;
+}
+.spa-message-closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+}
+.spa-message-closebtn:hover {
+    color: black;
+}
+.spa-message.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.spa-message.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.spa-message.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.spa-message.error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
